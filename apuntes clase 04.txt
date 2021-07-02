@@ -1,0 +1,153 @@
+set.seed(1505)establecemos una semilla 
+100 valores normales donde todos tengamos los mismos datos:
+set.seed(1505) inicializa un punto de partida para todos tener los mismos valores ya que le rango sera el mismo 
+v2 = rnorm (100)
+v2
+una variable se ajusta a una 
+rnorm(300) #promedio 0, varianza 1, se ajusta a una distribucion normal
+
+quando io ero bambina 
+io abitavo in italia
+Parlavo solo italiano
+
+METERSI ES LA ACCION QUE REALIZA UNA PERSONA o sea Hace referencia al tiempo que le toma a una persona hacer alguna accion
+VOLERCI DE TIEMPO cuando hacemos una cosa EN PLURAL
+
+En volerci la accion del sujeto es realizada por otra cosa no por la persona se puede reemplazar por es necesario c:
+
+VOGLIONO solo usamos voglio o vuole
+
+1. Volerci - qualcosa se usa el verbo es 
+indica el tiempo necesario para cumplir una accion
+2 horas volute
+1 hora voluto
+por que solo hace referencia al timepo
+
+Metterci depende de la persona de los pronombres
+
+indica el tiempo en qualcuno o qualcosa impiega per compiere una determinata azione. Al passato prossimo prende l'ausiliare avere 
+
+io ci metto
+tu ci metti
+lui ci mette
+noi mettiano
+voi ci mette
+loro ci mettano
+
+Volerci 
+
+presente
+Ci vuole: singular
+Ci vogliono: plural
+
+pasado:
+voluti: tomó 
+voluto
+
+futuro:
+vorra
+vorrano
+
+4. penso che ... piu di qualche setimana per abituarmi a questo nuovo lavoro
+4.1 
+
+io ci voglio	
+tu ci vuoi	tu ci sei voluto/a
+lui/lei ci vuole	
+noi ci vogliamo	
+voi ci volete	
+loro ci vogliono
+
+
+Lucía cucina spaggeti in 30 minuti in il suo restaurante, il suo restaurante e bello
+
+Lucía ci a messo 30 minuti per cocinare, in il suo ristorante, il suo restaurante es bello
+
+Nos va a dar un data frame como caracter pero esta como carcater lo debemos de convertir a numero. 
+
+iris$sepal.lenght <- as.character(iris$sepal.lengh)
+para convertir solo una columna a otro tipo de variable.
+
+y para redonder se usa round 
+iris$sepal.lenght <- round(iris$sepal.lengh, 0)
+usar 
+as_tibble(iris) pra nombrar la tabla. 
+
+Guardar en un formato mas correcto como rdata(almacena varios objetos, no se puede asignar otro nombre se debe de crear otro objeto) o rds(solo guarda un objeto, se puede asignar a un objeto con otro nombre). Si se desea guardar varios objetos en RDS se puede usar lista que solo es un objeto, pero en su inteiror se puede anidar información. 
+repasar regex, que es regex¿?
+
+con table te puede dar un resumen de cuantos true y false, así sabes cuantos datos que llamaste como true aparecen cierto?
+
+https://campus.datacamp.com/courses/image-processing-in-python/filters-contrast-transformation-and-morphology?ex=13
+
+
+
+rollapply()
+https://www.youtube.com/results?search_query=codigofacilito
+pregunta de sebas 
+doi.org/10.1145/3167486.3167502
+
+deysy.condor
+
+Office.17160180
+
+B-07 Distribucion de ingresos 2019
+
+cobertura_internet_
+cobertura_internet_$Distrito
+#Nombre de todos los distritos repetidos y sus localidades
+d1 <- cobertura_internet_[cobertura_internet_$Distrito=="ACCHA","Localidad"]
+str(d1) #58
+d2 <- cobertura_internet_[cobertura_internet_$Distrito=="CAPACMARCA","Localidad"]
+str(d2) #94
+d3 <- cobertura_internet_[cobertura_internet_$Distrito=="CCAPI","Localidad"]
+str(d3) 
+d4 <- cobertura_internet_[cobertura_internet_$Distrito=="ACCHA","Localidad"]
+d4
+attach(d1)
+d1
+
+as_tibble(cobertura_internet_)
+table(cobertura_internet_)
+cobertura_internet_
+which(cobertura_internet_==(cobertura_internet_$Distrito=="ACCHA"))
+rank(cobertura_internet_)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
